@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href="IMAGENES\ICONO.ico"
+    <title>COMUNICATE CON NOSOTROS</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" media=all/>
+	<link rel="stylesheet" type="text/js" href="./validación.js" media=all/>
+</head>
+
+
+<body>
+  
+    <form action="show_data.html" target="_blank" method=get">
+        <label>
+            Nombre y Apellido
+            <input id="Nombre" name="Nombre" maxline="10" id="name" required>
+        </label> 
+        <lebel> 
+            edad 
+            <input id="edad" type="number" value="number">
+        </lebel>
+        <br></br>
+        <label>
+            email
+            <input id="email" type="email" name="email" id="name"required>
+        </label>
+       
+    <fieldset>
+        <legend>¿Trabajaste en FMA-Lockeed-FadeaSA</legend>
+        
+        <label>
+          Si
+          <input type="checkbox" name="si" id="name"> 
+        </label>
+        <label>
+          No
+          <input type="checkbox" name="no" id="name">
+        </label>
+        <div>
+            Area de interes
+        <select name="Interes" id="name">
+            <option value="SISTEMAS DE ARMAS">SISTEMAS DE ARMAS</option>
+            <option value="HISTORIA INSTITUCIONAL">HISTORIA INSTITUCIONAL</option>
+            <option value="OTRA">OTRA</option>
+        </select>
+         </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dejanos tu consulta</legend> 
+        <textarea> </textarea> 
+    </fieldset>
+  
+    <input type="reset" value="Limpiar">  
+    <input type="submit">  
+    </form>  
+</body>
+</html>
